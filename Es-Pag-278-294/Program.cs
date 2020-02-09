@@ -7,7 +7,7 @@ namespace Es_Pag_278_294
     {
         static void Main(string[] args)
         {
-            //es 1 pag 278
+
             Console.WriteLine("Quanti numeri vuoi nel vettore?");
             int n = int.Parse(Console.ReadLine());
             List<int> lista = new List<int>(n);
@@ -24,7 +24,7 @@ namespace Es_Pag_278_294
             {
                 Console.WriteLine($"Il numero {duplicati[i]} è doppione.");
             }
-            Console.ReadLine();
+            Console.ReadLine() ;
         }
     }
 }
